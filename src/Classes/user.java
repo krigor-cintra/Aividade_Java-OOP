@@ -15,19 +15,19 @@ public user(String nome, String doc) {
     status=docs.getvalidado();
 }
 
-String setNome(){
+String getNome(){
     return nome;
 }
-String setTipo(){
+String getTipo(){
     return tipo;
 }
 public void nome(String nome){
     this.nome=nome;
 }
-public String setdoc(){
+public String getdoc(){
     return doc;
 }
-public String setstatus(){
+public String getstatus(){
     return status;
 }
 

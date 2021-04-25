@@ -29,8 +29,8 @@ public class cadastro {
         
         System.out.println("***Usuarios*** ");
         for (user user : lista) {
-            System.out.println("Pessoa Do Tipo "+user.setTipo()+" : "+user.setNome());
-            System.out.println((user.setTipo()=="Fisico" ? "CPF: ": "CNPJ: ")+user.setdoc()+"\nStatus:"+user.status);
+            System.out.println("Pessoa Do Tipo "+user.getTipo()+" : "+user.getNome());
+            System.out.println((user.getTipo()=="Fisico" ? "CPF: ": "CNPJ: ")+user.getdoc()+"\nStatus:"+user.status);
 
         
         }
